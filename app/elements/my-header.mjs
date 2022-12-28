@@ -1,10 +1,9 @@
 export default function MyHeader({ html }) {
     return html`
       <header>
-        <h1>Header</h1>
-        <nav>
-          <a href=/>home</a>
-          <a href=/about>about</a>
+        <nav class="nav">
+          <a href=/>Home</a>
+          <a href=/>About</a>
         </nav>
       </header>
     `
